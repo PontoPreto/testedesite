@@ -22,9 +22,9 @@
   display: flex;
 	width: 100%;
 	height: 250px;
-	background-image: url('logo-banner-header.jpg');
+	background-image: url('/img/logo-banner-header.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 	
 	
 	
@@ -161,7 +161,10 @@
 	 /*    MEDIA QUERY DO SITE     */
 	 
 	 
-	 @media (min-width:600px) {
+	 
+	 /* PARA TABLETS */
+	 
+	 @media (min-width:768px) {
 	   
 	   html {
 	     
@@ -180,6 +183,7 @@
 	   header {
 	     display: flex;
 	     height: 300px;
+	     background-size: 100% 100%;
 	   }
 	   
 	   nav, #menu-banner {
@@ -198,7 +202,7 @@
 	   
 	   .titulos {
 	     
-	     font-size: 23px;
+	     font-size: 35px;
 	     padding-right: 80px;
 	     
 	     
@@ -210,6 +214,15 @@
 	     
 	     
 	   }
+	   
+	   
+	 }
+	 
+	 
+	 /* PARA DESKTOP, TV'S E OUTROS... */
+	 
+	 @media (max-width:769px) {
+	   
 	   
 	   
 	 }
