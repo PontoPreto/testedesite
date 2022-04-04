@@ -22,7 +22,7 @@
   display: flex;
 	width: 100%;
 	height: 250px;
-	background-image: url('/img/logo-banner-header.jpg');
+	background-image: url('logo-banner-header.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	
