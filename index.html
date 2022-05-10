@@ -2,50 +2,97 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<title>Página inicial</title>
-	<script type="text/javascript" src="js/index-script.js"></script>
-	<link href="index-style.css" rel="stylesheet"/>
+	  <!-- SCRIPT'S DO SITE -->
+	<script src="/js/index-script.js"></script>
+	  <!-- ESTILOS DO SITE -->
+	<link href="/css/index-style.css" rel="stylesheet"/>
+	  <!-- FONTES DO SITE -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&family=Archivo:wght@200&display=swap" rel="stylesheet">
+    <!-- MEDIA QUERY'S -->
+  <link rel="stylesheet" href="/css/desktop-layout.css">
+  <link rel="stylesheet" href="/css/tablet-layout.css">
+    <!-- RESET DO SITE -->
+  <link rel="stylesheet" href="/css/reset.css">
 
 </head>
 <body>
-<header>
-	<nav id="menu-banner">
+<header class="cabecalho">
+
+<section class="barra-fixa">
+  
+    
+    <img class="logo-site" src="/img/logo-img.png">
+    
+  
+</section>
+
+<div class="banner-box">
+  
+  
+</div>
+	<nav id="menu-principal">
 	  
-	  <ul class="menu-ul">
+
+	  <ul class="menu-nao-ordenado">
 	      
-	      <li class="menu-list">Produtos</li>
-	      <li class="menu-list">Serviços</li>
-	      <li class="menu-list">Contatos</li>
-	      <li class="menu-list">Promoções</li>
+	      <li class="menu-lista">Item 1</li>
+	      <li class="menu-lista">Item 2</li>
+	      <li class="menu-lista">Item 3</li>
+	      <li class="menu-lista">Item 4</li>
 	      
 	  </ul>
 	  
 	</nav>
 </header>
 	
-	<div class="titulos">ESSE É O TÍTULO POSSO ESCREVER QUALQUER COISA QUE EU QUEIRA AQUI</div>
-	<div class="subtitulos">Esse é o subtítulo e aqui eu posso adicionar qualquer texto</div>
-	
-	<p class="paragrafo">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum nisi a lacus sodales tristique. Pellentesque mauris eros, rhoncus non metus quis, bibendum pretium lacus. Donec tincidunt blandit porta. In mi est, varius vitae ultrices vitae, faucibus porttitor augue. Nullam eros justo, porttitor vitae egestas id, condimentum quis nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus lectus augue, vulputate nec vulputate quis, scelerisque vitae odio. Aliquam felis lacus, venenatis vel tincidunt ac, imperdiet eu lorem. Duis tellus tellus, vestibulum at purus ut, rhoncus dapibus lectus. Curabitur molestie, magna sed laoreet fringilla, lectus sem faucibus orci, quis dignissim erat risus eu tellus. Nulla facilisi.
-</p>
+<div class="caixa-postagem">
+	<p class="texto-postagem">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum nisi a lacus sodales tristique.
+  </p>
+</div>
 
-<p class="paragrafo">
-Etiam ex elit, tristique vitae purus eget, gravida tempor magna. Donec vehicula lorem et sagittis tincidunt. Fusce venenatis tincidunt lacus. In vulputate fringilla dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean fringilla arcu blandit bibendum placerat. Integer eget ex a diam porttitor dictum. Sed at arcu ac ex posuere blandit nec ut felis. In et massa ante. Donec imperdiet rutrum risus eu auctor. In non posuere nunc. Proin ac quam tempor, placerat neque eget, eleifend elit. Sed ac urna magna. Cras aliquet malesuada pharetra.
-</p>
+<div class="caixa-postagem">
+  <p class="texto-postagem">
+Pellentesque mauris eros, rhoncus non metus quis, bibendum pretium lacus. Donec tincidunt blandit porta. In mi est, varius vitae ultrices vitae, faucibus porttitor augue. Nullam eros justo, porttitor vitae egestas id, condimentum quis nunc.
+  </p>
+</div>
+ 
+ <div class="img-box">
+<img src="/img/promocao-img.jpg" class="img-postagem">
+</div>
 
-<p class="paragrafo">
-Mauris et orci eget ipsum commodo pellentesque. Pellentesque non nisi velit. Phasellus volutpat quam a lectus mollis, a sodales magna luctus. Nullam finibus lacus at viverra condimentum. Maecenas auctor tellus tincidunt nunc lobortis, iaculis bibendum lacus blandit. Morbi rutrum facilisis finibus. Fusce cursus nisl eget mollis gravida. Fusce quis aliquam elit, sed accumsan arcu. Vestibulum in enim at velit rhoncus imperdiet. Phasellus dapibus augue eget velit mattis lacinia. Nam rhoncus, augue eu accumsan ornare, mi elit feugiat eros, vehicula tempus nisi metus bibendum turpis. Nam sed ligula in ligula consectetur viverra. Etiam vulputate metus eget tempus placerat. Phasellus vitae suscipit sem. Morbi in ornare odio, a laoreet nisi. Proin nisl urna, tempus eu felis non, mattis cursus risus.
-</p>
+<div class="caixa-postagem">
+  <p class="texto-postagem">
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus lectus augue, vulputate nec vulputate quis, scelerisque vitae odio. Aliquam felis lacus, venenatis vel tincidunt ac, imperdiet eu lorem.
+  </p>
+ </div>
+ 
+ <div class="caixa-postagem"> 
+  <p class="texto-postagem">
+Duis tellus tellus, vestibulum at purus ut, rhoncus dapibus lectus. Curabitur molestie, magna sed laoreet fringilla, lectus sem faucibus orci, quis dignissim erat risus eu tellus. Nulla facilisi.
+  </p>
+</div>	   
+
+<div class="caixa-postagem"> 
+  <p class="texto-postagem">
+Duis tellus tellus, vestibulum at purus ut, rhoncus dapibus lectus. Curabitur molestie, magna sed laoreet fringilla, lectus sem faucibus orci, quis dignissim erat risus eu tellus. Nulla facilisi.
+  </p>
+</div>	   
+
+<div class="caixa-postagem"> 
+  <p class="texto-postagem">
+Duis tellus tellus, vestibulum at purus ut, rhoncus dapibus lectus. Curabitur molestie, magna sed laoreet fringilla, lectus sem faucibus orci, quis dignissim erat risus eu tellus. Nulla facilisi.
+  </p>
+</div>	   
 
 <footer>
   
   
-<div class="copyright copyright-center">copyright © 2022 RS DEV</div>
+<div class="copyright-footer">copyright © 2022 BrainDev</div>
+
 
 </footer>
 </body>

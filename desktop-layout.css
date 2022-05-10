@@ -1,0 +1,23 @@
+
+        /* VISÃO DESKTOP */
+        
+  @media (min-width: 1024px) {
+    
+    .barra-fixa {
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .banner-box {
+      
+      display: none;
+      
+    }
+    
+    .menu-nao-ordenado {
+      margin-top: 80px;
+    }
+   
+  }

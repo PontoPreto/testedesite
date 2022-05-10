@@ -1,228 +1,134 @@
-/* RESET */
 
 
-* { margin:0; padding:0; box-sizing:border-box;}
-
-
- 
- /*     CORPO, CABEÇALHO E RODAPÉ DO SITE     */
- 	
- 	html { position: relative;}
-
-	body {
-	
-	margin:0 auto;
-	background-color: #03708b;
-	font-size: 10pt;
-	
-	}
-	
-	header {
+  /* CORPO, CABEÇALHO E RODAPÉ DO SITE */
   
-  display: flex;
-	width: 100%;
-	height: 250px;
-	background-image: url('logo-banner-header.jpg');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	
-	
-	
-	}
-	
-	footer {
-	   
-	   width: 100%;
-	   height: 150px;
-	   color: #b0b0b0;
-	   position: relative;
-	   text-shadow: 1px 1px #000;
-	   background-color: #323232;
-	   font-size: 1.2em;
-	   font-family: 'Open Sans', Sans-Serif;
-	   
-	   
-	 }
-	 
-	 .copyright {
-	   
-	   width: 230px;
-	   height: 40px;
-	   line-height: 40px;
-	   text-align: center;
-	   position: absolute;
-	   bottom: 0;
-	   left: 50%;
-	   transform: translateX(-50%);
-	   
-	 }
-	 
-
-	 
-	 /*     TÍTULO, SUBTÍTULO, MENU   */
-	 
-	 
-	 .titulos {
-	   
-	   
-	   width: 94%;
-	   font-family: 'Anchivo Black', sans-serif;
-	   font-stretch: normal;
-	   font-weight: bolder;
-	   margin:0 auto;
-	   padding: 25px 0 25px 0;
-	   color: #000;
-	   font-size: 28px;
-	   
-	 }
-	 
-	 .subtitulos {
-	   
-	   
-	   width: 94%;
-	   font-family: 'Archivo Narrow', sans-serif;
-	   font-stretch: normal;
-	   
-	   text-align: left;
-	   margin:0 auto;
-	   padding: 0 0 25px 0;
-	   color: #686868;
-	   font-size: 24px;
-	 }
-	 
-
-	 .paragrafo {
-	   
-	   line-height: 1.4;
-	   margin:0 auto;
-	   padding: 30px 0 30px 0;
-	   padding-right: 50px;
-	   width: 95%;
-	   color: #000;
-	   font-weight: normal;
-	   font-size: 17.5px;
-	   font-family: 'Open Sans', Sans-Serif;
-	   font-stretch: normal;
-	   text-align: left;
-	   
-	 }
-	 
-	 nav, #menu-banner {
-	   
-	   width: 100%;
-	   height: 60px;
-	   margin-top: 190px;
-	   background: transparent;
-	   display: flex;
-	   flex-wrap: no-wrap;
-	   justify-content: flex-start;
-	   align-items: center;
-	   text-transform: uppercase;
-	   font-weight: bolder;
-	   font-family: 'Archivo', sans-serif;
-	   
-	   
-	 }
-	 
-	 
-	 ul, .menu-ul {
-	   
-	   list-style: none;
-	   display: flex;
-	   margin:0 auto;
-	   padding:0;
-	   
-	 }
-	 
-	 li, .menu-list {
-	   
-	   display: inline-block;
-	   cursor: none;
-	   position: relative;
-	   padding: 1em;
-	   font-size: 0.9em;
-	   text-decoration: none;
-	   color: #fff;
-	   border-radius: 20px;
-	   margin-left: 2px;
-	   margin-right: 2px;
-	   transition: 0.5s;
-	   background-color: transparent;
-	   
-	 }
-	 
-	.menu-list:hover {
-	  
-	 background-color: #00000099;
-	 transition: 0.8s;
-	 
-	}
-	 
-	 /*    MEDIA QUERY DO SITE     */
-	 
-	 
-	 
-	 /* PARA TABLETS */
-	 
-	 @media (min-width:768px) {
-	   
-	   html {
-	     
-	     background-color: #fff;
-	     
-	   }
-	   
-	   body {
-	     
-	     width: 68%;
-	     border-left: 2px solid #f2f2f2;
-	     border-right: 2px solid #f2f2f2;
-	     
-	   }
-	   
-	   header {
-	     display: flex;
-	     height: 300px;
-	     background-size: 100% 100%;
-	   }
-	   
-	   nav, #menu-banner {
-	     
-	     margin-top: 240px;
-	     
-	   }
-	   
-	   .paragrafo {
-	     
-	     font-size: 17px;
-	     padding-right: 65px;
-	     
-	     
-	   }
-	   
-	   .titulos {
-	     
-	     font-size: 35px;
-	     padding-right: 80px;
-	     
-	     
-	   }
-	   
-	   .subtitulos {
-	     
-	     padding-right: 30px;
-	     
-	     
-	   }
-	   
-	   
-	 }
-	 
-	 
-	 /* PARA DESKTOP, TV'S E OUTROS... */
-	 
-	 @media (max-width:769px) {
-	   
-	   
-	   
-	 }
+  
+  body {
+   
+      width: 100%;
+      background-color: #fff;
+      color: #000;
+      font-stretch: normal;
+      font-family: Arial, Helvetica, Sans-Serif;
+   
+  }
+  
+  
+  
+  /* RESTO DO CORPO */
+  
+  .texto-postagem {
+    
+      width: 85%;
+      margin-left: 15px;
+      font-size: 17px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      text-align: left;
+    
+  }
+  
+  .img-box {
+    
+      width: 95%;
+      height: 250px;
+      position: relative;
+      margin:0 auto;
+      border-radius: 30px 0px 30px 0px;
+      overflow: hidden;
+  }
+  
+  
+  .img-postagem {
+    
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    
+    
+  }
+  
+  .banner-box {
+    
+      width: 100%;
+      height: 300px;
+      position: relative;
+      margin:0 auto;
+      background-image: url('/img/logo-banner-header.jpg');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      margin-top: 80px;
+      
+      
+    
+  }
+  
+  
+          /* MENU DO SITE */
+ 
+  .menu-nao-ordenado {
+    
+      width: 100%;
+      background-color: #000;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: nowrap;
+      list-style: none;
+      flex-direction: row;
+      text-decoration: none;
+      color: #fff;
+      
+    
+  }
+  
+  .menu-lista {
+    
+      width: 90px;
+      height: 40px;
+      font-size: 13px;
+      background-color: transparent;
+      text-transform: uppercase;
+      font-style: normal;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 10px;
+    
+  }
+  #menu-principal {
+    
+    position: sticky;
+    top: 80px;
+    z-index: 1000;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .barra-fixa {
+    
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .logo-site {
+    
+    width: 240px;
+    height: 70px;
+    
+  }
