@@ -54,7 +54,7 @@
       height: 300px;
       position: relative;
       margin:0 auto;
-      background-image: url('/img/logo-banner-header.jpg');
+      background-image: url('logo-banner-header.jpg');
       background-size: 100% 100%;
       background-repeat: no-repeat;
       margin-top: 80px;
